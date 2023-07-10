@@ -1,0 +1,37 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/yarn add express
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.9.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EACCES: permission denied, symlink '../../../mime/cli.js' -> '/storage/emulated/0/Pedidos/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "pedidos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "PedidosEditar.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
